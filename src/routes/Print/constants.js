@@ -1,0 +1,3 @@
+// @flow
+export const INSTRUCTIONS_TEMPLATE: string = 'INSTRUCTIONS_TEMPLATE'
+export const WEEKLY_MENU_TEMPLATE: string = 'WEEKLY_MENU_TEMPLATE'

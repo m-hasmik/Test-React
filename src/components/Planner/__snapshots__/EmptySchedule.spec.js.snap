@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Element /> shallow matches the snapshot 1`] = `
+.c1 {
+  font-size: 0.9rem;
+  color: #575148;
+  margin-bottom: 0.5rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  background: #E8E8E8;
+  padding: 3rem 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <p
+      class="c1"
+    >
+      planning.empty.schedule
+    </p>
+  </div>
+</div>
+`;

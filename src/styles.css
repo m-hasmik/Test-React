@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------------
+# React Autosuggest Custom Styles
+------------------------------------------------------------------------ */
+.react-autosuggest__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.react-autosuggest__input {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.062), 0 3px 6px rgba(0, 0, 0, 0.007);
+  font-size: 1rem;
+  height: 55px;
+  margin: 1em 0;
+  outline: none;
+  padding: 0 2em 0 2em;
+  width: 600px;
+}
+
+.react-autosuggest__suggestions-container {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 100px;
+}
+
+.react-autosuggest__suggestions-container--open {
+  background: #fff;
+  z-index: 25;
+  transition: transform 0.4s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.062), 0 3px 6px rgba(0, 0, 0, 0.007);
+  position: absolute;
+  top: 80px;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.react-autosuggest__suggestions-list {
+  padding: 1rem;
+  width: 100%;
+}
+
+.react-autosuggest__suggestion {
+  padding: 0.5rem 0.3rem;
+  font-size: 16px;
+  color: #575148;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-bottom: 1px solid #dbe4e2;
+}
+
+.react-autosuggest__suggestions-list
+  .react-autosuggest__suggestion:last-of-type {
+  border: 0;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  color: #86c7b4;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 30;
+}
+
+.basic-multi-select .select__control {
+  height: 40px;
+  border: 1px solid #909090;
+  margin-bottom: 2rem;
+}
+
+.basic-multi-select .select__menu {
+  text-align: left;
+}
+
+.react-tabs {
+  text-align: left;
+}
+
+.react-tabs__tab {
+  font-size: 1rem;
+  color: gray;
+  padding: 0.7rem 1.5rem;
+}
+
+.react-tabs__tab--selected {
+  color: black;
+  color: hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+.react-tabs__tab-list {
+  margin-bottom: 1.3rem;
+}
+
+.basic-multi-select {
+  margin-top: 0.5rem;
+}

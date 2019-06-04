@@ -1,0 +1,12 @@
+image: node:11.6.0
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script: # Modify the commands below to build your repository.
+          - npm install
+          - npm run lint
+          - npm run flow
+          - npm test

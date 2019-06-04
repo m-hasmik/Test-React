@@ -1,0 +1,123 @@
+{
+  "app": {
+    "menu": {
+      "buttons": {
+        "logOut": "Log out"
+      },
+      "title": "Menu Planner",
+      "links": {
+        "search": "Search",
+        "menu": "Planner",
+        "recipeSearch": "Recipe Search",
+        "siteMenu": "Site Planner",
+        "centralMenu": "Central Planner"
+      }
+    },
+    "noMatch": {
+      "code": "404",
+      "title": "We are sorry, Page not found!",
+      "explanation": "The page you are looking for might have been removed had its name changed or is temporarily unavailable.",
+      "link": "Back To Homepage"
+    }
+  },
+  "login": {
+    "title": "Menu Planner",
+    "inputs": {
+      "username": "Username",
+      "password": "Password",
+      "submit": "Sign in"
+    },
+    "notes": "You need to be logged in into the company VPN to correctly access the system using this login form."
+  },
+  "menus": {
+    "title": "Planner",
+    "filters": {
+      "dates": "You can filter by when the Menu starts"
+    },
+    "table": {
+      "header": {
+        "status": "Status",
+        "description": "Description",
+        "siteId": "Site ID",
+        "concept": "Concept",
+        "name": "Name",
+        "dates": "From / To"
+      },
+      "isEmpty": "Currently, you don't have Active Menus"
+    }
+  },
+  "recipe": {
+    "buttons": {
+      "goBack": "View all Recipes",
+      "select": "Select Recipe"
+    },
+    "sections": {
+      "ingredients": {
+        "title": "Ingredients"
+      },
+      "instructions": {
+        "title": "Instructions"
+      }
+    },
+    "summary": {
+      "time": "Time",
+      "cost": "Cost",
+      "price": "Price"
+    }
+  },
+  "search": {
+    "searchBar": {
+      "placeholder": "Search Recipes"
+    },
+    "recipes": {
+      "modal": {
+        "actions": {
+          "select": "Add Recipes",
+          "close": "Close"
+        }
+      }
+    }
+  },
+  "planning": {
+    "title": "Planner",
+    "header": {
+      "actions": {
+        "export": {
+          "consumers": "Print Weekly Menu",
+          "chefs": "Print Recipe Instructions"
+        }
+      }
+    },
+    "navigation": {
+      "title": {
+        "connector": "to",
+        "presentation": "Current Week"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "recipes": {
+      "add": "Add recipe",
+      "remove": "Remove recipe"
+    },
+    "empty": {
+      "description": "This week there's no planning set, you can view another week using the navigation buttons at the top",
+      "schedule": "There are zero (0) recipes scheduled for today"
+    },
+    "section": {
+      "summary": {
+        "quantity": "Quantity",
+        "total": "Total"
+      }
+    }
+  },
+  "printing": {
+    "menu": {
+      "footer": {
+        "description": "Menu subject to changes"
+      }
+    }
+  }
+}
