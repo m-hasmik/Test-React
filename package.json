@@ -83,7 +83,7 @@
     "history": "^4.7.2",
     "i18next": "^14.0.1",
     "i18next-browser-languagedetector": "^2.2.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "polished": "^3.0.0",
     "prop-types": "^15.6.2",
